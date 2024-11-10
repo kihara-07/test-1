@@ -3,3 +3,6 @@
 
 # ああああああ
 - あああああああああ
+
+docker build -t hello-apache .
+docker run -p 8080:80 hello-apache
